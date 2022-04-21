@@ -16,7 +16,7 @@
 }
 
 .inputBox:focus {
-  box-shadow: 0 0 10px 1000px rgba(122, 122, 122, 0.502);
+  box-shadow: 0 0 10px 1000px #7c382d;
   outline: none;
 }
 
@@ -30,20 +30,19 @@
   border: none;
   font-size: 15px;
   /* background-color: #2f74c0; */
-  background-color: #D2B5D4;
+  background-color: #C05746;
   color: white;
   transition: 0.2s all;
   box-shadow: 0 0 10px rgb(97, 97, 97);
 }
 
 .inputSubmit:hover {
-  background-color: #af96b1;;
-
+  background-color: #ec6e5a;
 }
 
 .inputSubmit:active {
   transform: scale(0.8);
-  box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px rgb(71, 70, 70);
 }
 
 .container {

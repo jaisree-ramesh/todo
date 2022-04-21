@@ -15,9 +15,12 @@ const SingleTodo = ( {todo, todos, setTodos}: Props) => {
     const [edit,setEdit] = useState<boolean>(false)
     const [editedTodo, setEditedTodo] = useState<string>(todo.todo)
 
+
+
     const handleDone = (id:number) => {
         setTodos( todos.map((todo)=> 
             todo.id===id?{...todo,isDone:!todo.isDone}:todo))
+
     }
 
     const handleDelete = (id:number) => {
